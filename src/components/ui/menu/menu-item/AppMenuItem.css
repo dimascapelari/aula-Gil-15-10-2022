@@ -1,0 +1,20 @@
+.menu-item {
+  display: flex;
+  width: 100%;
+  margin: 0px auto;
+  justify-content: center;
+}
+
+.menu-tooltip {
+  display: none;
+}
+
+.menu-item:hover .menu-tooltip {
+  position: absolute;
+  left: 90px;
+  display: block;
+}
+
+.menu-item .router-link-active.router-link-exact-active {
+  background-color: red;
+}
